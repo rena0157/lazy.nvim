@@ -6,6 +6,7 @@ return {
     priority = 1000,
     opts = {
       flavour = "mocha", -- latte, frappe, macchiato, mocha
+      no_italic = true, -- globally disable italics
 
       -- If you dislike italics, keep these empty tables (no italic/bold/etc.)
       styles = {
