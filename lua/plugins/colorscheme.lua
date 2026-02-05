@@ -19,14 +19,6 @@ return {
         variables = {},
       },
 
-      lsp_styles = {
-        underlines = {
-          errors = { "undercurl" },
-          hints = { "undercurl" },
-          warnings = { "undercurl" },
-          information = { "undercurl" },
-        },
-      },
       integrations = {
         aerial = true,
         alpha = true,
