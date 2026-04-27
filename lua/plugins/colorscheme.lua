@@ -59,11 +59,28 @@ return {
     },
   },
 
+  {
+    "EdenEast/nightfox.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {
+      options = {
+        styles = {
+          comments = "NONE",
+          keywords = "NONE",
+          functions = "NONE",
+          strings = "NONE",
+          variables = "NONE",
+        },
+      },
+    },
+  },
+
   -- This is the piece that actually selects it in LazyVim:
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin",
+      colorscheme = "carbonfox",
     },
   },
 }
